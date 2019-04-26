@@ -1,0 +1,38 @@
+body{
+    background-image: url("../images/ep_naturalwhite.png");  
+    color: #777777;
+    font-family: 'Arial', 'Helvetoca Neue', Helvetica, sans-serif;
+    margin: 0px; 
+    padding: 0px;    
+    width: 100%;      
+   overflow-x:hidden;
+}
+nav ul{
+    position: relative;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+footer{    
+    height:50px;
+}
+figure img{
+    height:250px;width:auto;
+}
+figure
+{
+    position: relative;
+}
+figure h3{
+    background-color: bg-primary;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;    font-weight: normal;
+    margin-bottom: 10px;
+    padding: 8px;
+    text-align: center;
+    width:250px;
+    position: absolute;
+    bottom: 0px;
+}
