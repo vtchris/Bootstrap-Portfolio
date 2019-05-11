@@ -7,6 +7,9 @@ body{
     width: 100%;      
    overflow-x:hidden;
 }
+ul{
+    padding: 0px;
+}
 nav ul{
     position: relative;
     left:0;
@@ -35,4 +38,9 @@ figure h3{
     width:250px;
     position: absolute;
     bottom: 0px;
+}
+@media screen and (max-width:640px){
+    .display-5{
+        font-size: 10px;
+    }
 }
