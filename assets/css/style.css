@@ -4,24 +4,7 @@ body{
     font-family: 'Arial', 'Helvetoca Neue', Helvetica, sans-serif;
     margin: 0px; 
     padding: 0px;    
-    width: 100%;      
-   overflow-x:hidden;
-}
-ul{
-    padding: 0px;
-}
-nav ul{
-    position: relative;
-    left:0;
-    right:0;
-    margin:auto;
-}
-
-footer{    
-    height:50px;
-}
-figure img{
-    height:250px;width:250px;
+    width: 100%;         
 }
 figure
 {
@@ -38,6 +21,21 @@ figure h3{
     width:250px;
     position: absolute;
     bottom: 0px;
+}
+figure img{
+    height:250px;width:250px;
+}
+footer{    
+    height:50px;
+}
+
+nav ul{
+    margin:auto;
+    position: relative;
+    left:0;right:0;
+}
+ul{
+    padding: 0px;
 }
 @media screen and (max-width:640px){
     .display-5{
