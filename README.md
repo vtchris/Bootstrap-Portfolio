@@ -1,3 +1,14 @@
+<h1><em>Bootstrap Portfolio</em></h1>
+
+Visit online at:
+https://vtchris.github.io/Bootstrap-Portfolio/
+
+<h2>Technology</h2>
+<ul>    
+    <li>BOOTSTRAP</li>
+    <li>HTML/CSS</li>
+</ul>
+
 # Bootstrap-Portfolio
 
 ### Assignment One Instructions (Bootstrap)
