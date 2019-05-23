@@ -27,7 +27,10 @@ figure img{
 }
 footer{   
    
-    height:100px;
+    height:90px;
+}
+footer ul{
+    margin-bottom: 0px;
 }
 h2{
     display:inline-block;
@@ -48,7 +51,5 @@ ul{
     footer{
         height:75px;
     }
-    footer ul{
-        margin-bottom: 0px;
-    }
+    
 }
