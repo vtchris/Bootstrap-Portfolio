@@ -41,7 +41,7 @@
                         <li class="mb-3"><input type="text" class="form-control" placeholder="example@gmail.com"></li>
                         <li><label>Message</label></li>
                         <li class="mb-3"><textarea class="form-control"></textarea></li>
-                        <li><button class="btn btn-primary">Submit</button></li>
+                        <li><button id="btnSubmit" class="btn btn-primary">Submit</button></li>
                     </Ul>
                 </div>
             </form>
@@ -51,13 +51,23 @@
 
     <footer class="fixed-bottom bg-dark  border-top border-info text-center">
         <ul>
-            <li class="list-inline-item"><h4 class="display-5 mt-2">HTML &nbsp; &#8226; &nbsp;</h4></li>
-            <li class="list-inline-item"><h4 class="display-5 mt-2">CSS &nbsp; &#8226; &nbsp;</h4></li>
-            <li class="list-inline-item"><h4 class="display-5 mt-2">BOOTSTRAP &nbsp; &#8226; &nbsp;</h4></li>
-            <li class="list-inline-item"><h4 class="display-5 mt-2">JAVASCRIPT</h4>
+            <li class="list-inline-item"><h4 class="display-5 mt-2">JAVASCRIPT &nbsp; &#8226; &nbsp;</h4></li>
+            <li class="list-inline-item"><h4 class="display-5 mt-2">JQUERY &nbsp; &#8226; &nbsp;</h4></li>
+            <li class="list-inline-item"><h4 class="display-5 mt-2">API &nbsp; &#8226; &nbsp;</h4></li>
+            <li class="list-inline-item"><h4 class="display-5 mt-2">HTML/CSS &nbsp; &#8226; &nbsp;</h4></li>
+            <li class="list-inline-item"><h4 class="display-5 mt-2">BOOTSTRAP</h4></li>
         </ul>
 
     </footer>
+    <script type="text/javascript">
+
+        var btnSubmit = document.getElementById("btnSubmit")
+        
+        btnSubmit.onclick = function () {
+            alert("Your early! Thanks for trying to contact me, this webpage is still a work in progress. For now, please contact me at vtchris.2357@gmail.com!")
+        }
+
+    </script>
 
 </body>
 
