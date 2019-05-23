@@ -25,8 +25,12 @@ figure h3{
 figure img{
     height:250px;width:250px;
 }
-footer{    
-    height:50px;
+footer{   
+   
+    height:100px;
+}
+h2{
+    display:inline-block;
 }
 
 nav ul{
@@ -40,5 +44,11 @@ ul{
 @media screen and (max-width:667px){
     .display-5{
         font-size: 10px;
+    }
+    footer{
+        height:75px;
+    }
+    footer ul{
+        margin-bottom: 0px;
     }
 }
